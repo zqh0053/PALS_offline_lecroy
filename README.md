@@ -5,9 +5,9 @@ How to build
 > cd build
 >> cmake ..
 
-lib version required\r
-GSL v2.4 or higher\r
-ROOT v6.08 or higher\r
+#lib version required
+#GSL v2.4 or higher
+#ROOT v6.08 or higher
 
 How to use
 
