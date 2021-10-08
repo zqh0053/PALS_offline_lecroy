@@ -25,3 +25,16 @@ file(GLOB headers ${PROJECT_SOURCE_DIR}/include/*.h)
 link_directories(/home/zqh/gsl/install/lib)
 add_executable(lf_deal lf_deal.cpp ${sources} ${headers})
 target_link_libraries(lf_deal ${ROOT_LIBRARIES} -lgsl -lgslcblas)
+
+# Copy all scripts to the build directory
+set(pals_SCRIPTS
+  input.file
+  )
+
+foreach(_script ${pals_SCRIPTS})
+  configure_file(
+    ${PROJECT_SOURCE_DIR}/${_script}
+    ${PROJECT_BINARY_DIR}/${_script}
+    COPYONLY
+    )
+endforeach()
