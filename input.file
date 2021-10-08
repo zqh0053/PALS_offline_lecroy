@@ -1,0 +1,17 @@
+FolderName /mnt/usb_dir/20210911/
+OutFileName out/0911_3.root
+StopFileName stop1.txt
+ChNum 2
+FileName C1--XX-- C3--XX--
+Signal 20000 200 3000
+SignalStartNum 1
+ThrNum 30
+FracNum 30
+QsNum 1
+QlNum 1
+FitRange 0.6
+BaseNum 4000
+PolNum 4
+Let 0
+Cft 1
+Polarity -1
