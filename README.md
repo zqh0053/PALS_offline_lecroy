@@ -2,8 +2,8 @@
 
 How to build
 > mkdir build
->> cd build
->>> cmake ..
+> cd build
+>> cmake ..
 
 lib version required
 GSL v2.4 or higher
